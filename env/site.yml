@@ -15,7 +15,7 @@ description: Configuration to load when when we are running in a site
 
 includes:
 #- includes/houdini/site.yml
-#- includes/maya/site.yml
+- includes/maya/site.yml
 #- includes/nuke/site.yml
 - includes/desktop/site.yml
 - includes/shell/site.yml
@@ -25,7 +25,7 @@ includes:
 
 engines:
   #tk-houdini: '@houdini.site'
-  #tk-maya: '@maya.site'
+  tk-maya: '@maya.site'
   #tk-nuke: '@nuke.site'
   tk-desktop: '@desktop.site'
   tk-shell: '@shell.site'
