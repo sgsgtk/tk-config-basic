@@ -23,13 +23,13 @@ desktop.project:
 
     #tk-multi-pythonconsole: '@common.apps.tk-multi-pythonconsole'
 
-    tk-multi-publish2:
-      help_url: "@common.apps.tk-multi-publish2.help_url"
-      collector: "{self}/collector.py"
-      publish_plugins:
-        - '@common.settings.tk-multi-publish2.publish_file'
-        - '@common.settings.tk-multi-publish2.upload_version'
-      location: "@common.apps.tk-multi-publish2.location"
+    #tk-multi-publish2:
+    #  help_url: "@common.apps.tk-multi-publish2.help_url"
+    #  collector: "{self}/collector.py"
+    #  publish_plugins:
+    #    - '@common.settings.tk-multi-publish2.publish_file'
+    #    - '@common.settings.tk-multi-publish2.upload_version'
+    #  location: "@common.apps.tk-multi-publish2.location"
 
     tk-multi-launchapp:
       use_software_entity: true
