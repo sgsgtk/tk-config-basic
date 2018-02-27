@@ -13,21 +13,21 @@ description: Toolkit configuration to be loaded whenever an association with a
              shot has been established.
 
 includes:
-- includes/houdini/shot.yml
-- includes/maya/shot.yml
-- includes/nuke/shot.yml
-- includes/flame/shot.yml
+#- includes/houdini/shot.yml
+#- includes/maya/shot.yml
+#- includes/nuke/shot.yml
+#- includes/flame/shot.yml
 - includes/shell/shot.yml
 - includes/photoshopcc/shot.yml
-- includes/3dsmax/shot.yml
+#- includes/3dsmax/shot.yml
 - includes/shotgun/all.yml
 
 engines:
-  tk-houdini: '@houdini.shot'
-  tk-maya: '@maya.shot'
-  tk-nuke: '@nuke.shot'
-  tk-flame: '@flame.shot'
+  #tk-houdini: '@houdini.shot'
+  #tk-maya: '@maya.shot'
+  #tk-nuke: '@nuke.shot'
+  #tk-flame: '@flame.shot'
   tk-shell: '@shell.shot'
   tk-photoshopcc: '@photoshopcc.shot'
-  tk-3dsmaxplus: '@3dsmax.shot'
+  #tk-3dsmaxplus: '@3dsmax.shot'
   tk-shotgun: '@shotgun.all'
